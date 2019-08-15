@@ -2,6 +2,7 @@ body {
     color: black;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    margin: 0;
 }
 
 .container {
@@ -9,7 +10,7 @@ body {
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(4, minmax(150px, auto));
     grid-gap: 10px;
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -26,7 +27,7 @@ body {
 .container__header {
     grid-column-start: 1;
     grid-column-end: 8;
-    height: 500px;
+    height: 100vh;
     background: url("src/worker_550.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,13 +39,141 @@ body {
     font-weight: bold;
     list-style-type: none;
     display: flex;
-    float:right;
+    float: right;
+}
+
+.container__header_companyInfo {
+    color: white;
+}
+
+.container__header_companyInfo p:nth-child(1) {
+    width: 200px;
+    font-size: 1rem;
+    padding: 0.3rem;
+    border-bottom: 0.1rem solid white;
+}
+
+.container__header_companyInfo p:nth-child(2) {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: -1rem;
+    margin-top: 10rem;
 }
 
 .container__header_menu li {
     margin: 10px;
     text-transform: uppercase;
 }
+
+.container__header_buttons {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.container__header_buttons p:nth-child(1) {
+    width: 10rem;
+    font-weight: bold;
+    border: 0.5rem solid green;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    background: green;
+    margin: 0.5rem;
+}
+
+.container__header_buttons p:nth-child(1):hover {
+    background: white;
+    color: black;
+    border: 0.5rem solid white;
+}
+
+.container__header_buttons p:nth-child(2) {
+    color: black;
+    font-weight: bold;
+    width: 10rem;
+    border: 0.5rem solid white;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    background: white;
+    margin: 0.5rem;
+}
+
+.container__header_buttons p:nth-child(2):hover {
+    background: green;
+    color: white;
+    border: 0.5rem solid green;
+}
+
+.container__header_mouse-icon img {
+    width: 5rem;
+    height: 5rem;
+    bottom: 0;
+    left: 0;
+    margin-top: 13rem;
+    -webkit-animation: jello-horizontal 0.9s infinite both;
+    animation: jello-horizontal 0.9s infinite both;
+}
+@-webkit-keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  
 
 .container__welcomeText {
     grid-column-start: 1;
