@@ -392,8 +392,8 @@ body {
     flex-direction: column;
 }
 
-.container_header {
-    background: url(src/worker_440_mobile.jpg);
+.container__header {
+    background: url("src/worker_440_mobile.jpg");
 }
 
 .container__photovoltaics {
