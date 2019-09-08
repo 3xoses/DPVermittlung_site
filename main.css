@@ -299,7 +299,7 @@ body {
 
 .container__footer {
     display: flex;
-    background: url(src/footer_bg.jpg);
+    background: rgb(65, 66, 64);
     color: rgb(255, 255, 255);
 }
 
@@ -343,4 +343,60 @@ body {
 .container__footer_three :nth-child(3) {
     text-decoration: none;
     color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 600px) {
+
+.container__imgBuilder {
+    display: none;
+}
+.container__welcomeText,
+.container__photovoltaics,
+.container__header,
+.container__map {
+    grid-column-start: 1;
+    grid-column-end: 12;
+}
+
+.container__icons_one,
+.container__icons_three,
+.container__icons_five,
+.container__icons_two,
+.container__icons_four,
+.container__icons_six {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    padding: 5rem;
+}
+
+.container__header_mouse-icon img {
+    margin-top: 5rem
+}
+
+.container__footer {
+    background-color: rgb(65, 66, 64);
+    background-size: 100% 100rem;
+    flex-direction: column;
+    height: 700px;
+    grid-column-start: 1;
+    grid-column-end: 12;
+}
+
+.container__footer_one,
+.container__footer_two,
+.container__footer_three {
+    width: 80%
+}
+
+.container__header_menu {
+    flex-direction: column;
+}
+
+.container_header {
+    background: url(src/worker_440_mobile.jpg);
+}
+
+.container__photovoltaics {
+    background-position-y: -44rem;
+}
 }
