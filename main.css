@@ -233,6 +233,21 @@ body {
     height: 350px;
 }
 
+.container__photovoltaics {
+    background: url(src/4257.jpg);
+    background-size: cover;
+    background-position-y: 40rem;
+}
+
+.container__photovoltaics span {
+    color: rgb(25, 206, 25);
+    font-size: bold;
+}
+
+.container__photovoltaics p {
+    margin-top: 5rem;
+}
+
 .container__icons_one img,
 .container__icons_two img,
 .container__icons_three img,
