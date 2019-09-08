@@ -410,13 +410,15 @@ body {
 }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     .container__imgBuilder {
         background-position-x: -2rem;
     }
 
     .container__photovoltaics {
         background: url("src/4257.jpg");
+        background-position: center;
+        background-size: cover;
     }
 
     .container__footer {
