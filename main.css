@@ -341,9 +341,15 @@ body {
     font-weight: bold;
 }
 
-.container__footer_three :nth-child(3) {
+.container__footer_three :nth-child(3)
+ {
     text-decoration: none;
     color: rgb(255, 255, 255);
+}
+
+.container__header_buttons p a {
+    text-decoration: none;
+    color: black;
 }
 
 @media only screen and (max-width: 600px) {
