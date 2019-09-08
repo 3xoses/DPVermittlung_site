@@ -244,7 +244,8 @@ body {
 .container__photovoltaics {
     background: url(src/4257.jpg);
     background-size: cover;
-    background-position-y: 40rem;
+    background-repeat: no-repeat;
+    background-position-y: -10rem;
 }
 
 .container__photovoltaics span {
@@ -399,7 +400,7 @@ body {
 }
 
 .container__photovoltaics {
-    background-position-y: -44rem;
+    background: url("src/4257_mobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
