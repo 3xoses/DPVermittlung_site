@@ -398,5 +398,7 @@ body {
 
 .container__photovoltaics {
     background-position-y: -44rem;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 }
