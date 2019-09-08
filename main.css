@@ -410,7 +410,12 @@ body {
 }
 
 .container__header_companyInfo img {
-    margin-right: 50px;
+    margin-right: 70px;
+    margin-top: 15px;
+}
+
+.container__header_companyInfo p:nth-child(2) {
+    margin-top: 0;
 }
 }
 
