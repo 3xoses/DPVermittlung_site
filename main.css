@@ -406,6 +406,20 @@ body {
 }
 
 .container__welcomeText {
-    margin-top: -12rem;
+    margin-top: -8rem;
 }
+}
+
+@media only screen and (min-width: 768px) {
+    .container__imgBuilder {
+        background-position-x: -2rem;
+    }
+
+    .container__photovoltaics {
+        background: url("src/4257.jpg");
+    }
+
+    .container__footer {
+        height: 400px;
+    }
 }
