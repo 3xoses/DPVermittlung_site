@@ -32,6 +32,11 @@ body {
     float: right;
 }
 
+.container__header_menu a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
 .container__header_companyInfo {
     color: white;
 }
@@ -64,10 +69,10 @@ body {
 .container__header_buttons p:nth-child(1) {
     width: 10rem;
     font-weight: bold;
-    border: 0.5rem solid green;
+    border: 0.5rem solid rgb(59, 181, 74);;
     border-radius: 0.5rem;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
-    background: green;
+    background: rgb(59, 181, 74);;
     margin: 0.5rem;
 }
 
@@ -89,9 +94,9 @@ body {
 }
 
 .container__header_buttons p:nth-child(2):hover {
-    background: green;
+    background: rgb(59, 181, 74);;
     color: white;
-    border: 0.5rem solid green;
+    border: 0.5rem solid rgb(59, 181, 74);;
 }
 
 .container__header_mouse-icon img {
@@ -184,6 +189,7 @@ body {
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
+    padding: 1rem;
 }
 
 .container__welcomeText p {
@@ -193,6 +199,8 @@ body {
 
 .container__welcomeText a {
     text-align: justify;
+    text-justify: inter-word;
+    font-size: 14px;
 }
 
 .container__icons {
@@ -248,6 +256,10 @@ body {
     margin-top: 5rem;
 }
 
+.container__photovoltaics a {
+    background: rgb(255, 255, 255);
+}
+
 .container__icons_one img,
 .container__icons_two img,
 .container__icons_three img,
@@ -275,4 +287,60 @@ body {
 .container__icons_five a,
 .container__icons_six a {
     font-size: 0.8rem;
+}
+
+.container__footer_one,
+.container__footer_two,
+.container__footer_three {
+    width: 33%;
+    text-align: left;
+    padding: 1rem;
+}
+
+.container__footer {
+    display: flex;
+    background: url(src/footer_bg.jpg);
+    color: rgb(255, 255, 255);
+}
+
+.container__footer_one p,
+.container__footer_two p,
+.container__footer_three p {
+    border-bottom: 0.05rem solid rgb(255, 255, 255); 
+}
+
+.container__footer_two img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.container__footer_two_box-one,
+.container__footer_two_box-two,
+.container__footer_two_box-three {
+    display: flex;
+    align-items:center;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.container__footer_three :nth-child(2) {
+  box-sizing: border-box;
+  width: 10rem;
+  height: 3rem;
+  padding: 0.5rem;  
+  border: 0.05rem solid rgb(59, 181, 74);
+  background: rgb(59, 181, 74);
+  border-radius: 0.5rem;
+}
+
+.container__footer_three :nth-child(2):hover {
+    background: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.5);
+    border: 0.05rem solid rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.container__footer_three :nth-child(3) {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
