@@ -403,4 +403,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.container__welcomeText {
+    margin-top: -10rem;
+}
 }
