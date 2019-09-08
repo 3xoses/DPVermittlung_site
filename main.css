@@ -14,16 +14,6 @@ body {
     margin: 0 auto;
 }
 
-/* 
-.container div {
-    background: #3bbced;
-    padding: 30px;
-} */
-/* 
-.container div:nth-child(even) {
-    background: #777;
-} */
-
 .container__header {
     grid-column-start: 1;
     grid-column-end: 8;
@@ -196,6 +186,15 @@ body {
     grid-row-end: 3;
 }
 
+.container__welcomeText p {
+    font-weight: bold;
+    border-bottom: 0.1rem solid grey;
+}
+
+.container__welcomeText a {
+    text-align: justify;
+}
+
 .container__icons {
     grid-column-start: 1;
     grid-column-end: 5;
@@ -232,4 +231,33 @@ body {
     grid-column-start: 1;
     grid-column-end: 8;
     height: 350px;
+}
+
+.container__icons_one img,
+.container__icons_two img,
+.container__icons_three img,
+.container__icons_four img,
+.container__icons_five img,
+.container__icons_six img {
+    width: 9rem;
+    height: 7rem;
+}
+
+.container__icons_one p,
+.container__icons_two p,
+.container__icons_three p,
+.container__icons_four p,
+.container__icons_five p,
+.container__icons_six p {
+    font-weight: bold;
+    margin: 0; 
+}
+
+.container__icons_one a,
+.container__icons_two a,
+.container__icons_three a,
+.container__icons_four a,
+.container__icons_five a,
+.container__icons_six a {
+    font-size: 0.8rem;
 }
