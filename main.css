@@ -371,7 +371,7 @@ body {
 }
 
 .container__header_mouse-icon img {
-    margin-top: 5rem
+    margin-top: 1rem;
 }
 
 .container__footer {
@@ -396,7 +396,7 @@ body {
 .container__header {
     background: url("src/worker_440_mobile.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 600px;
+    background-size: 100% 520px;
 }
 
 .container__photovoltaics {
@@ -406,6 +406,6 @@ body {
 }
 
 .container__welcomeText {
-    margin-top: -10rem;
+    margin-top: -12rem;
 }
 }
