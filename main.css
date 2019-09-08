@@ -394,6 +394,7 @@ body {
 
 .container__header {
     background: url("src/worker_440_mobile.jpg");
+    background-repeat: no-repeat;
 }
 
 .container__photovoltaics {
