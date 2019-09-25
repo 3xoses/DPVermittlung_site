@@ -416,7 +416,7 @@ body {
 }
 
 .container__header_companyInfo img {
-    margin-right: 70px;
+    margin-right: 69px;
     margin-top: 15px;
 }
 
@@ -443,4 +443,8 @@ body {
     .container__header_companyInfo img {
         margin-right: 100px;
     }
+}
+
+@media only screen and (max-width: 375px) {
+
 }
