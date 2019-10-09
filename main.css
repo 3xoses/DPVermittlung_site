@@ -454,8 +454,8 @@ body {
     }
 }
 
-@media only screen and (max-width: 374px) {
+@media only screen and (max-width: 360px) {
     .container__header_companyInfo img {
-        margin-right: 69px;
+        margin-right: 29px;
     }
 }
