@@ -99,16 +99,6 @@ body {
     border: 0.5rem solid rgb(59, 181, 74);;
 }
 
-.container__header_mouse-icon img {
-    width: 5rem;
-    height: 5rem;
-    bottom: 0;
-    left: 0;
-    margin-top: 3rem;
-    -webkit-animation: jello-horizontal 0.9s infinite both;
-    animation: jello-horizontal 0.9s infinite both;
-}
-
 @-webkit-keyframes jello-horizontal {
     0% {
         -webkit-transform: scale3d(1, 1, 1);
@@ -383,10 +373,6 @@ body {
     grid-column-start: 1;
     grid-column-end: 12;
     padding: 5rem;
-}
-
-.container__header_mouse-icon img {
-    margin-top: 1rem;
 }
 
 .container__footer {
