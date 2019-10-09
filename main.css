@@ -379,7 +379,7 @@ body {
     background-color: rgb(65, 66, 64);
     background-size: 100% 100rem;
     flex-direction: column;
-    height: 700px;
+    height: 800px;
     grid-column-start: 1;
     grid-column-end: 12;
 }
