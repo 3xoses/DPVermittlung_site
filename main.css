@@ -356,9 +356,10 @@ body {
     color: black;
 }
 
-.container__footer_two_box-one a {
- text-decoration: none;
- color: rgb(255, 255, 255);
+.container__footer_two_box-one a,
+.container__footer_three a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 600px) {
