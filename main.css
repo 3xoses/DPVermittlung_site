@@ -104,7 +104,7 @@ body {
     height: 5rem;
     bottom: 0;
     left: 0;
-    margin-top: 13rem;
+    margin-top: 3rem;
     -webkit-animation: jello-horizontal 0.9s infinite both;
     animation: jello-horizontal 0.9s infinite both;
 }
@@ -321,7 +321,6 @@ body {
     display: flex;
     align-items:center;
     margin-top: 1rem;
-    text-transform: uppercase;
 }
 
 .container__footer_three :nth-child(2),
