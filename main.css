@@ -289,7 +289,6 @@ body {
     grid-row-end: 12;
 }
 .container__partners_logo {
-    grid-template-columns: repeat(3, 1fr);
     grid-column-start: 1;
     grid-column-end: 8;
 }
@@ -305,7 +304,8 @@ body {
 .container__welcomeText,
 .container__photovoltaics,
 .container__header,
-.container__map {
+.container__map,
+.container__partners_logo {
     grid-column-start: 1;
     grid-column-end: 12;
 }
