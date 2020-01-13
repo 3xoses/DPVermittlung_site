@@ -98,82 +98,6 @@ body {
     color: white;
     border: 0.5rem solid rgb(59, 181, 74);;
 }
-
-@-webkit-keyframes jello-horizontal {
-    0% {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
-
-    30% {
-        -webkit-transform: scale3d(1.25, 0.75, 1);
-        transform: scale3d(1.25, 0.75, 1);
-    }
-
-    40% {
-        -webkit-transform: scale3d(0.75, 1.25, 1);
-        transform: scale3d(0.75, 1.25, 1);
-    }
-
-    50% {
-        -webkit-transform: scale3d(1.15, 0.85, 1);
-        transform: scale3d(1.15, 0.85, 1);
-    }
-
-    65% {
-        -webkit-transform: scale3d(0.95, 1.05, 1);
-        transform: scale3d(0.95, 1.05, 1);
-    }
-
-    75% {
-        -webkit-transform: scale3d(1.05, 0.95, 1);
-        transform: scale3d(1.05, 0.95, 1);
-    }
-
-    100% {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
-}
-
-@keyframes jello-horizontal {
-    0% {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
-
-    30% {
-        -webkit-transform: scale3d(1.25, 0.75, 1);
-        transform: scale3d(1.25, 0.75, 1);
-    }
-
-    40% {
-        -webkit-transform: scale3d(0.75, 1.25, 1);
-        transform: scale3d(0.75, 1.25, 1);
-    }
-
-    50% {
-        -webkit-transform: scale3d(1.15, 0.85, 1);
-        transform: scale3d(1.15, 0.85, 1);
-    }
-
-    65% {
-        -webkit-transform: scale3d(0.95, 1.05, 1);
-        transform: scale3d(0.95, 1.05, 1);
-    }
-
-    75% {
-        -webkit-transform: scale3d(1.05, 0.95, 1);
-        transform: scale3d(1.05, 0.95, 1);
-    }
-
-    100% {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
-}
-
-
 .container__welcomeText {
     grid-column-start: 1;
     grid-column-end: 5;
@@ -313,6 +237,11 @@ body {
     margin-top: 1rem;
 }
 
+.container__footer_two_box-two a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
 .container__footer_three :nth-child(2),
 .container__footer_three :nth-child(3),
 .container__footer_three :nth-child(4) {
@@ -349,6 +278,23 @@ body {
 .container__footer_three a {
     text-decoration: none;
     color: rgb(255, 255, 255);
+}
+
+.container__partners {
+    font-weight: bold;
+    font-size: 20px;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 7;
+    grid-row-end: 12;
+}
+.container__partners_logo {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+.containers__partners_logo_two {
+    background: rgb(59, 181, 74);
 }
 
 @media only screen and (max-width: 600px) {
@@ -417,6 +363,11 @@ body {
 
 .container__header_companyInfo p:nth-child(2) {
     margin-top: 0;
+}
+
+.container__partners {
+    grid-column-end: 0;
+    grid-row-start: 10;
 }
 }
 
