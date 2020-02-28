@@ -30,7 +30,6 @@ body {
     list-style-type: none;
     display: flex;
     float: right;
-    margin-bottom: 0;
 }
 
 .container__header_menu a {
@@ -46,6 +45,7 @@ body {
     width: 130px;
     height: 120px;
     padding: 0.3rem;
+    margin-right: 700px;
 }
 
 .container__header_companyInfo p:nth-child(2) {
