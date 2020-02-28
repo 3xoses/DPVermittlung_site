@@ -1,0 +1,49 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.impressum_head {
+    border-bottom: 0.05rem solid rgb(0, 0, 0);
+    width: 1000px;
+}
+
+.impressum_body p:nth-child(3){
+    width: 1000px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+    .impressum_head,
+    .impressum_body p{
+        width: 450px;
+        font-size: 12px;
+    }
+
+    .impressum_body p:nth-child(3){
+        width: 450px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .impressum_head,
+    .impressum_body p{
+        width: 450px;
+        font-size: 12px;
+    }
+
+    .impressum_body p:nth-child(3){
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .impressum_head,
+    .impressum_body p{
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .impressum_body p:nth-child(3){
+        width: 300px;
+    }
+}
