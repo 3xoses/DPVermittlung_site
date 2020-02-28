@@ -30,6 +30,7 @@ body {
     list-style-type: none;
     display: flex;
     float: right;
+    margin-bottom: 0;
 }
 
 .container__header_menu a {
