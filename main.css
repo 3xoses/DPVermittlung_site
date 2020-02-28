@@ -293,8 +293,13 @@ body {
     grid-column-start: 1;
     grid-column-end: 8;
 }
-.containers__partners_logo_two {
+.containers__partners_logo_two,
+.containers__partners_logo_four {
     background: rgb(59, 181, 74);
+}
+
+.containers__partners_logo_five {
+    margin-top: 0.5em;
 }
 
 @media only screen and (max-width: 600px) {
