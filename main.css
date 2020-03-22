@@ -362,11 +362,6 @@ body {
     margin-top: -8rem;
 }
 
-.container__header_companyInfo img {
-    margin-right: 69px;
-    margin-top: 15px;
-}
-
 .container__header_companyInfo p:nth-child(2) {
     margin-top: 0;
 }
@@ -393,12 +388,21 @@ body {
     }
 
     .container__header_companyInfo img {
-        margin-right: 100px;
+        margin-right: O;
+    }
+    .container__header_menu {
+        flex-direction: column;
     }
 }
 
 @media only screen and (max-width: 360px) {
     .container__header_companyInfo img {
-        margin-right: 29px;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    .container__header_companyInfo img {
+        margin-right: 0;
     }
 }
